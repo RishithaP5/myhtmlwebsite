@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nested table</title>
+    </head>
+    <body>
+        <table style="border: 2px solid black;">
+            <tr>
+                <th style="border:1px solid black;" colspan="3">HTML Table</th>
+            </tr>
+            <tr>
+                <td style="border:1px solid black;text-align:center;" rowspan="4">Cell 1</td>
+                <td style="border:1px solid black;text-align:center;" colspan="2">Cell 2
+                    <table style="border:3px solid grey; ">
+                        <tr>
+                            <th style="border:1px solid grey;" colspan="2">Nested HTML Table</th>
+                        </tr>
+                        <tr>
+                            <td style="border:1px solid grey; text-align:center;">Cell 2.1</td>
+                            <td style="border:1px solid grey; text-align:center;">Cell 2.2</td>
+                        </tr>
+                        <tr>
+                            <td style="border:1px solid grey; text-align:center;">Cell 2.3</td>
+                            <td style="border:1px solid grey; text-align:center;">Cell 2.4</td>
+                        </tr>
+
+                    </table></td>
+            </tr>
+        </table>
+    </body>
+</html>
